@@ -1,0 +1,46 @@
+
+Resume format
+var myresume = {
+"Name":"Mahendran",
+"age":"25"'
+"Qualification":"BE mechanical"
+"College":"karpagam Institute of technology"
+"Marks"="68"
+"courses":"Full Stack Developer"
+};
+for(var a in myresume){      (for in)
+console.log(a,myresume[a])
+};
+for(let i=0;i<myresume.length;i++){      (for loop)
+console.log(myresume[i]);
+};
+ARRAY OF JSON OBJECTS
+var myresume = [{
+"Name":"Mahendran",
+"age":"25"'
+"Qualification":"BE mechanical"
+"College":"karpagam Institute of technology"
+"Marks"="68"
+"courses":"Full Stack Developer"
+},{
+"Name":"Ramkumar",
+"age":"27"'
+"Qualification":"BE computer science"
+"College":"SRM Institute of technology"
+"Marks"="69"
+"courses":"Full Stack Developer"
+}{
+"Name":"Arjun",
+"age":"25"'
+"Qualification":"BE Electrical"
+"College":"PSG Institute of technology"
+"Marks"="75"
+"courses":"Full Stack Developer"
+}];
+myresume.forEach((value)=>{    (for each)
+console.log(value.Name);        if i want name only on array of objects   
+}
+output 
+Mahendran
+Ramkumar
+Arjun
